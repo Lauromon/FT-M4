@@ -111,7 +111,7 @@ describe('Character Model', () => {
     });
   })
 
-  xdescribe('Parte DOS', () => {
+  describe('Parte DOS', () => {
     it('should not create the Character if name is forbidden', async () => {
       expect.assertions(1);
       try {
